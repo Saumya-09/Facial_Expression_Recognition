@@ -15,6 +15,6 @@ For my specific requirement I have set the hyperparameters as I needed, one can 
 
 4) After the main.py runs successfully, open your browser and visit: 127.0.0.1/5000 (localhost)
 
-** Note:-** One important thing to note is that if you want to detect facial expression through your web-camera in the browser, you will have to make a change in the **camera.py ** file. On line 11 in the code you will have to write the following: ** self.video = cv2.VideoCapture(0) **. And if you want to detect facial expression from a video than you will have to specify the path to the video instead of '0'.
+**Note:-** One important thing to note is that if you want to detect facial expression through your web-camera in the browser, you will have to make a change in the **camera.py** file. On line 11 in the code you will have to write the following: ** self.video = cv2.VideoCapture(0) **. And if you want to detect facial expression from a video than you will have to specify the path to the video instead of '0'.
   
 
